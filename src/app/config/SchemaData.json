@@ -1,0 +1,171 @@
+{
+  "challenges": {
+    "uid-string": {
+      "createdAt": 1566625626068,
+      "docId": "docId-string",
+      "direction": "inbound | outbound",
+      "status": "pending | rejected | accepted",
+      "name": "Josephine Hamilton",
+      "bizCategory": "home"
+    }
+  },
+  "contacts": {
+    "uid-string": {
+      "bizCategory": "financial",
+      "createdAt": 1566625626068,
+      "createdBy": "uid-string",
+      "deletedAt": 0,
+      "email": "JosephineAHamilton@rhyta.com",
+      "idHash": "0057e12f2848b436f74faa3a298f2d97750f6bd9",
+      "name": "Josephine Hamilton",
+      "notes": "Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. ",
+      "phone": "(555) 999-1212",
+      "zipInput": {
+        "city": "Fallon",
+        "county": "Churchill",
+        "formFieldConfigKey": "zipInput",
+        "isValid": true,
+        "lat": 39.479393,
+        "lon": -118.296879,
+        "state": "NV",
+        "zip": "89406"
+      }
+    }
+  },
+  "leads": {
+    "leadId-string": {
+      "archivedAt": 0,
+      "archivedBy": null,
+      "bizCategory": "mortgage",
+      "challengesCount": 3,
+      "challenges": [
+        {
+          "challengedBy": "uid-string",
+          "challengedAt": 1568949482997
+        },
+        {
+          "challengedBy": "uid-string",
+          "challengedAt": 1568949482997
+        },
+        {
+          "challengedBy": "uid-string",
+          "challengedAt": 1568949482997
+        }
+      ],
+      "createdAt": 1568949482997,
+      "createdBy": "3lq9cr3A3eNSehv4X35Q2HBtUty2",
+      "deletedAt": 0,
+      "email": "LatriceDThomas@dayrep.com",
+      "geoLocal": "Seattle",
+      "geoNation": "United States",
+      "geoRegion": "Washington",
+      "idHash": "fdc60718f28933906a47e3cd75d4aea3f5f2c0a8",
+      "name": "latrice THOMAS",
+      "notes": "Lorem ipsum",
+      "phone": "(580) 926-584",
+      "rejectedAt": 1568949482997,
+      "zipInput": {
+        "city": "Camargo",
+        "county": "Dewey",
+        "formFieldConfigKey": "zipInput",
+        "isValid": true,
+        "lat": 36.019939,
+        "lon": -99.287978,
+        "state": "NY",
+        "zip": "73835"
+      }
+    } 
+  },
+  "narratives": {
+    "docId-string": {
+      "content": "Massa eget egestas purus viverra accumsan in nisl. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. ",
+      "createdAt": 1566961459361,
+      "createdBy": "uid-string",
+      "type": "comment"
+    }
+  },
+  "ratings": {
+    "docId-string": {
+      "createdAt": 1566843734982,
+      "createdBy": "3lq9cr3A3eNSehv4X35Q2HBtUty2",
+      "value": 5
+    }
+  },
+  "settings": {
+    "uid-string": {
+      "autoClaimLeads": true,
+      "autoEmailMe": true,
+      "autoEmailProspect": true,
+      "autoTextMe": true,
+      "autoTextProspect": true,
+      "bizCategory": "financial",
+      "createdAt": 1568077832175,
+      "dashboard": {
+        "archive": 5,
+        "challenges": {
+          "net": 0,
+          "inbound": {
+            "total": 0,
+            "pending": 0,
+            "won": 0,
+            "lost": 0
+          },
+          "outbound": {
+            "total": 0,
+            "pending": 0,
+            "won": 0,
+            "lost": 0
+          }
+        },
+        "contacts": 4,
+        "deposits": 27,
+        "net": 13,
+        "outbox": 27,
+        "withdrawals": 10,
+        "reputation": 25
+      },
+      "deletedAt": 0,
+      "displayAvatar": "Friendly",
+      "geoLocal": "New York",
+      "geoNation": "United States",
+      "geoRegion": "New York"
+    }
+  },
+  "stats": {
+    "level_1": {
+      "leads": {
+        "geoLocationTypes": {
+          "United States | New York | New York | home": 11,
+          "United States | New York | New York | mortgage": 12,
+          "United States | New York | New York | financial": 21,
+          "United States | New York | New York | insurance": 31
+        }
+      }
+    },
+    "level_2": {
+      "leads": {
+        "deposited": 38
+      },
+      "zipCodes": {
+        "24112": "United States | New York | New York"
+      },
+      "geoLocations": {
+        "United States | New York | New York": 31,
+        "United States | District of Columbia | Washington": 12
+      }
+    },
+    "level_3": {}
+  },
+  "users": {
+    "uid-string": {
+      "createdAt": 1569301865011,
+      "displayName": "John Doe",
+      "email": "john.doe@example.com",
+      "emailVerified": true,
+      "isAnonymous": false,
+      "phoneNumber": null,
+      "photoURL": "https://lh3.googleusercontent.com/string-",
+      "uid": "string"
+    }
+  }
+}

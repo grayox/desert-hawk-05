@@ -8,7 +8,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import * as Actions from 'app/store/actions';
 import AppContext from 'app/AppContext';
-import {generateSettings} from 'app/store/reducers/fuse/settings.reducer';
+// import {generateSettings} from 'app/store/reducers/fuse/settings.reducer';
 
 const styles = theme => ({
     root: {
@@ -68,7 +68,7 @@ class FuseLayout extends Component {
             {
                 const routeSettings = matched.route.settings;
 
-                newSettings = generateSettings(props.defaultSettings, routeSettings);
+                newSettings = /*generateSettings*/_.merge({}, props.defaultSettings, routeSettings,);
 
                 if ( !_.isEqual(props.settings, newSettings) )
                 {

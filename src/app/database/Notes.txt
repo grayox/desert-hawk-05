@@ -1,0 +1,12 @@
+.
+│
+├─src/app/containers/FetchUserData.js
+│  └─src/app/store/actions/my-actions/userDataActions.js
+│     ├─updateUserData
+│     └─saveUserDataToFirestore
+│
+├─src/app/layouts/crud/CRUDView.js
+│  └─src/app/layouts/crud/store/actions/crud.actions.js
+│
+└─src/app/views/settings/Settings.js
+   └─src/app/store/actions/my-actions/settingsTabsActions.js

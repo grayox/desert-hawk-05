@@ -1,32 +1,35 @@
+// import firebaseService from 'firebaseService';
 import firebaseService from 'app/services/firebaseService';
-import * as UserActions from './user.actions';
+// import * as UserActions from 'auth/store/actions';
+import * as UserActions from 'app/auth/store/actions';
+// import * as Actions from 'store/actions';
 import * as Actions from 'app/store/actions';
-import jwtService from 'app/services/jwtService';
+// import jwtService from 'jwtService';
 
 export const REGISTER_ERROR = 'REGISTER_ERROR';
 export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
 
 export function submitRegister({displayName, password, email})
 {
-    return (dispatch) =>
-        jwtService.createUser({
-            displayName,
-            password,
-            email
-        })
-            .then((user) => {
-                    dispatch(UserActions.setUserData(user));
-                    return dispatch({
-                        type: REGISTER_SUCCESS
-                    });
-                }
-            )
-            .catch(error => {
-                return dispatch({
-                    type   : REGISTER_ERROR,
-                    payload: error
-                });
-            });
+    return (dispatch) => null
+        // jwtService.createUser({
+        //     displayName,
+        //     password,
+        //     email
+        // })
+        //     .then((user) => {
+        //             dispatch(UserActions.setUserData(user));
+        //             return dispatch({
+        //                 type: REGISTER_SUCCESS
+        //             });
+        //         }
+        //     )
+        //     .catch(error => {
+        //         return dispatch({
+        //             type   : REGISTER_ERROR,
+        //             payload: error
+        //         });
+        //     });
 }
 
 export function registerWithFirebase(model)

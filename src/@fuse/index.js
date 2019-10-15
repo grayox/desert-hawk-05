@@ -25,7 +25,9 @@ export {default as FuseSidePanel} from './components/FuseSidePanel/FuseSidePanel
 export {default as FuseUtils} from './FuseUtils';
 export * from './FuseDefaultSettings';
 export * from './components/formsy/index';
-export {default as FuseLayouts} from 'app/fuse-layouts/FuseLayouts';
-export {default as FuseLayoutConfigs} from 'app/fuse-layouts/FuseLayoutConfigs';
+// export {default as FuseLayouts} from 'app/fuse-layouts/FuseLayouts';
+export {default as FuseLayouts} from '../app-orig/fuse-layouts/FuseLayouts';
+// export {default as FuseLayoutConfigs} from 'app/fuse-layouts/FuseLayoutConfigs';
+export {default as FuseLayoutConfigs} from '../app-orig/fuse-layouts/FuseLayoutConfigs';
 export {default as NavLinkAdapter} from './components/NavLinkAdapter/NavLinkAdapter';
 export {default as withRouterAndRef} from './components/withRouterAndRef/withRouterAndRef';

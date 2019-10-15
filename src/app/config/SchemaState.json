@@ -1,0 +1,882 @@
+{
+  "auth": {
+    "user": {
+      "role": "user",
+      "data": {
+        "uid": "3lq9cr3A3eNSehv4X35Q2HBtUty2",
+        "displayName": "Maria Le",
+        "photoURL": "https://lh5.googleusercontent.com/-B8JLjDILt9k/AAAAAAAAAAI/AAAAAAAAABc/G75SvMbyb0k/photo.jpg",
+        "email": "maria.c.le.4@gmail.com",
+        "emailVerified": true,
+        "phoneNumber": null,
+        "isAnonymous": false
+      }
+    },
+    "login": {
+      "success": true,
+      "error": {
+        "username": null,
+        "password": null
+      }
+    },
+    "register": {
+      "success": false,
+      "error": {
+        "username": null,
+        "password": null
+      }
+    }
+  },
+  "fuse": {
+    "navigation": [
+      {
+        "id": "dashboard",
+        "title": "Dashboard",
+        "type": "item",
+        "icon": "dashboard",
+        "url": "/dashboard",
+        "path": "app/layouts/dashboard/Dashboard"
+      },
+      {
+        "id": "inbox",
+        "title": "Inbox",
+        "type": "item",
+        "icon": "cloud_download",
+        "url": "/inbox",
+        "path": "app/containers/inbox/InboxContainer"
+      },
+      {
+        "id": "archive",
+        "title": "Archive",
+        "type": "item",
+        "icon": "save",
+        "url": "/archive",
+        "path": "app/layouts/archive/Archive"
+      },
+      {
+        "id": "outbox",
+        "title": "Outbox",
+        "type": "item",
+        "icon": "cloud_upload",
+        "url": "/outbox",
+        "path": "app/layouts/outbox/Outbox"
+      },
+      {
+        "id": "contacts",
+        "title": "Contacts",
+        "type": "item",
+        "icon": "contacts",
+        "url": "/contacts",
+        "path": "app/layouts/contacts/Contacts"
+      },
+      {
+        "id": "feedback",
+        "title": "Feedback",
+        "type": "item",
+        "icon": "feedback",
+        "url": "/feedback",
+        "path": "app/layouts/feedback/Feedback"
+      },
+      {
+        "id": "settings",
+        "title": "Settings",
+        "type": "item",
+        "icon": "settings",
+        "url": "/settings",
+        "path": "app/layouts/settings/Settings"
+      }
+    ],
+    "settings": {
+      "defaults": {
+        "layout": {
+          "style": "layout1",
+          "config": {
+            "scroll": "content",
+            "navbar": {
+              "display": true,
+              "folded": false,
+              "position": "left"
+            },
+            "toolbar": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "footer": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "leftSidePanel": {
+              "display": true
+            },
+            "rightSidePanel": {
+              "display": true
+            },
+            "mode": "fullwidth"
+          }
+        },
+        "customScrollbars": true,
+        "theme": {
+          "main": "default",
+          "navbar": "mainThemeDark",
+          "toolbar": "mainThemeLight",
+          "footer": "mainThemeDark"
+        }
+      },
+      "current": {
+        "layout": {
+          "style": "layout1",
+          "config": {
+            "scroll": "content",
+            "navbar": {
+              "display": true,
+              "folded": false,
+              "position": "left"
+            },
+            "toolbar": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "footer": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "leftSidePanel": {
+              "display": true
+            },
+            "rightSidePanel": {
+              "display": true
+            },
+            "mode": "fullwidth"
+          }
+        },
+        "customScrollbars": true,
+        "theme": {
+          "main": "default",
+          "navbar": "mainThemeDark",
+          "toolbar": "mainThemeLight",
+          "footer": "mainThemeDark"
+        }
+      }
+    },
+    "navbar": {
+      "foldedOpen": false,
+      "mobileOpen": false
+    },
+    "message": {
+      "state": null,
+      "options": {
+        "anchorOrigin": {
+          "vertical": "top",
+          "horizontal": "center"
+        },
+        "autoHideDuration": 6000,
+        "message": "User data saved to firebase",
+        "variant": null
+      }
+    },
+    "dialog": {
+      "state": false,
+      "options": {
+        "children": "Hi"
+      }
+    }
+  },
+  "chatPanel": {
+    "state": false,
+    "user": {
+      "id": "5725a6802d10e277a0f35724",
+      "name": "John Doe",
+      "avatar": "assets/images/avatars/profile.jpg",
+      "status": "online",
+      "mood": "it's a status....not your diary...",
+      "chatList": [
+        {
+          "chatId": "1725a680b3249760ea21de52",
+          "contactId": "5725a680b3249760ea21de52",
+          "lastMessageTime": "2017-06-12T02:10:18.931Z"
+        },
+        {
+          "chatId": "2725a680b8d240c011dd2243",
+          "contactId": "5725a680606588342058356d",
+          "lastMessageTime": "2017-02-18T10:30:18.931Z"
+        },
+        {
+          "chatId": "3725a6809413bf8a0a5272b4",
+          "contactId": "5725a68009e20d0a9e9acf2a",
+          "lastMessageTime": "2017-03-18T12:30:18.931Z"
+        }
+      ]
+    },
+    "contacts": {
+      "entities": [
+        {
+          "id": "5725a680b3249760ea21de52",
+          "name": "Alice Freeman",
+          "avatar": "assets/images/avatars/alice.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+          "unread": "2"
+        },
+        {
+          "id": "5725a680606588342058356d",
+          "name": "Arnold",
+          "avatar": "assets/images/avatars/Arnold.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+          "unread": "3"
+        },
+        {
+          "id": "5725a68009e20d0a9e9acf2a",
+          "name": "Barrera",
+          "avatar": "assets/images/avatars/Barrera.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+          "unread": "1"
+        },
+        {
+          "id": "5725a6809fdd915739187ed5",
+          "name": "Blair",
+          "avatar": "assets/images/avatars/Blair.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a68007920cf75051da64",
+          "name": "Boyle",
+          "avatar": "assets/images/avatars/Boyle.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a68031fdbb1db2c1af47",
+          "name": "Christy",
+          "avatar": "assets/images/avatars/Christy.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680bc670af746c435e2",
+          "name": "Copeland",
+          "avatar": "assets/images/avatars/Copeland.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680e7eb988a58ddf303",
+          "name": "Estes",
+          "avatar": "assets/images/avatars/Estes.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680dcb077889f758961",
+          "name": "Harper",
+          "avatar": "assets/images/avatars/Harper.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6806acf030f9341e925",
+          "name": "Helen",
+          "avatar": "assets/images/avatars/Helen.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680ae1ae9a3c960d487",
+          "name": "Henderson",
+          "avatar": "assets/images/avatars/Henderson.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680b8d240c011dd224b",
+          "name": "Josefina",
+          "avatar": "assets/images/avatars/Josefina.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a68034cb3968e1f79eac",
+          "name": "Katina",
+          "avatar": "assets/images/avatars/Katina.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6801146cce777df2a08",
+          "name": "Lily",
+          "avatar": "assets/images/avatars/Lily.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6808a178bfd034d6ecf",
+          "name": "Mai",
+          "avatar": "assets/images/avatars/Mai.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680653c265f5c79b5a9",
+          "name": "Nancy",
+          "avatar": "assets/images/avatars/Nancy.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680bbcec3cc32a8488a",
+          "name": "Nora",
+          "avatar": "assets/images/avatars/Nora.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6803d87f1b77e17b62b",
+          "name": "Odessa",
+          "avatar": "assets/images/avatars/Odessa.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680e87cb319bd9bd673",
+          "name": "Reyna",
+          "avatar": "assets/images/avatars/Reyna.jpg",
+          "status": "offline",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6802d10e277a0f35775",
+          "name": "Shauna",
+          "avatar": "assets/images/avatars/Shauna.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680aef1e5cf26dd3d1f",
+          "name": "Shepard",
+          "avatar": "assets/images/avatars/Shepard.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a680cd7efa56a45aea5d",
+          "name": "Tillman",
+          "avatar": "assets/images/avatars/Tillman.jpg",
+          "status": "do-not-disturb",
+          "mood": ""
+        },
+        {
+          "id": "5725a680fb65c91a82cb35e2",
+          "name": "Trevino",
+          "avatar": "assets/images/avatars/Trevino.jpg",
+          "status": "away",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a68018c663044be49cbf",
+          "name": "Tyson",
+          "avatar": "assets/images/avatars/Tyson.jpg",
+          "status": "do-not-disturb",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        },
+        {
+          "id": "5725a6809413bf8a0a5272b1",
+          "name": "Velazquez",
+          "avatar": "assets/images/avatars/Velazquez.jpg",
+          "status": "online",
+          "mood": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        }
+      ],
+      "selectedContactId": null
+    },
+    "chat": null
+  },
+  "quickPanel": {
+    "state": false,
+    "data": {
+      "notes": [
+        {
+          "id": 1,
+          "title": "Best songs to listen while working",
+          "detail": "Last edit: May 8th, 2015"
+        },
+        {
+          "id": 2,
+          "title": "Useful subreddits",
+          "detail": "Last edit: January 12th, 2015"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "title": "Group Meeting",
+          "detail": "In 32 Minutes, Room 1B"
+        },
+        {
+          "id": 2,
+          "title": "Public Beta Release",
+          "detail": "11:00 PM"
+        },
+        {
+          "id": 3,
+          "title": "Dinner with David",
+          "detail": "17:30 PM"
+        },
+        {
+          "id": 4,
+          "title": "Q&A Session",
+          "detail": "20:30 PM"
+        }
+      ]
+    }
+  },
+  "todoApp": {
+    "todos": {
+      "entities": {
+        "561551bd7fe2ff461101c192": {
+          "id": "561551bd7fe2ff461101c192",
+          "title": "Proident tempor est nulla irure ad est",
+          "notes": "Id nulla nulla proident deserunt deserunt proident in quis. Cillum reprehenderit labore id anim laborum.",
+          "startDate": "2018-09-03T07:00:00.000Z",
+          "dueDate": "2018-09-05T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            1
+          ]
+        },
+        "561551bd4ac1e7eb77a3a750": {
+          "id": "561551bd4ac1e7eb77a3a750",
+          "title": "Magna quis irure quis ea pariatur laborum",
+          "notes": "",
+          "startDate": "2018-05-03T07:00:00.000Z",
+          "dueDate": "2018-05-05T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            1,
+            4
+          ]
+        },
+        "561551bd917bfec2ddef2d49": {
+          "id": "561551bd917bfec2ddef2d49",
+          "title": "Ullamco duis commodo sint ad aliqua aute",
+          "notes": "Sunt laborum enim nostrud ea fugiat cillum mollit aliqua exercitation ad elit.",
+          "startDate": "2018-06-03T07:00:00.000Z",
+          "dueDate": "2018-06-05T07:00:00.000Z",
+          "completed": false,
+          "starred": true,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            3
+          ]
+        },
+        "561551bdeeb2fd6877e18c29": {
+          "id": "561551bdeeb2fd6877e18c29",
+          "title": "Eiusmod non occaecat pariatur Lorem in ex",
+          "notes": "Nostrud anim mollit incididunt qui qui sit commodo duis. Anim amet irure aliquip duis nostrud sit quis fugiat ullamco non dolor labore. Lorem sunt voluptate laboris culpa proident. Aute eiusmod aliqua exercitation irure exercitation qui laboris mollit occaecat eu occaecat fugiat.",
+          "startDate": "2018-10-03T07:00:00.000Z",
+          "dueDate": "2018-10-05T07:00:00.000Z",
+          "completed": true,
+          "starred": true,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2
+          ]
+        },
+        "561551bdf38eae0134ae43d4": {
+          "id": "561551bdf38eae0134ae43d4",
+          "title": "Lorem magna cillum consequat consequat mollit",
+          "notes": "Velit ipsum proident ea incididunt et. Consectetur eiusmod laborum voluptate duis occaecat ullamco sint enim proident.",
+          "startDate": "2018-07-03T07:00:00.000Z",
+          "dueDate": "2018-07-04T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            5,
+            4
+          ]
+        },
+        "561551bd32f1588c814a0ccd": {
+          "id": "561551bd32f1588c814a0ccd",
+          "title": "Quis irure cupidatat ad consequat reprehenderit excepteur",
+          "notes": "Esse nisi mollit aliquip mollit aute consequat adipisicing. Do excepteur dolore proident cupidatat pariatur irure consequat incididunt.",
+          "startDate": "2018-06-03T07:00:00.000Z",
+          "dueDate": "2018-07-05T07:00:00.000Z",
+          "completed": false,
+          "starred": true,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2,
+            3
+          ]
+        },
+        "561551bd0bb4b08ca77038ef": {
+          "id": "561551bd0bb4b08ca77038ef",
+          "title": "Officia voluptate tempor ut mollit ea cillum",
+          "notes": "Deserunt veniam reprehenderit do elit magna ut.",
+          "startDate": "2018-03-03T08:00:00.000Z",
+          "dueDate": "2018-04-05T07:00:00.000Z",
+          "completed": true,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2,
+            4
+          ]
+        },
+        "561551bdf84eec913835ebe5": {
+          "id": "561551bdf84eec913835ebe5",
+          "title": "Sit exercitation cupidatat minim est ipsum excepteur",
+          "notes": "",
+          "startDate": "2018-05-03T07:00:00.000Z",
+          "dueDate": "2018-07-02T07:00:00.000Z",
+          "completed": true,
+          "starred": false,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            1,
+            3
+          ]
+        },
+        "561551bd2047cc709af0f670": {
+          "id": "561551bd2047cc709af0f670",
+          "title": "Sunt fugiat officia nisi minim sunt duis",
+          "notes": "Eiusmod eiusmod sint aliquip exercitation cillum. Magna nulla officia ex consectetur ea ad excepteur in qui.",
+          "startDate": "2018-02-03T08:00:00.000Z",
+          "dueDate": "2018-03-05T08:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            5
+          ]
+        },
+        "561551bd73d1a627e97005ce": {
+          "id": "561551bd73d1a627e97005ce",
+          "title": "Non cupidatat enim quis aliquip minim laborum",
+          "notes": "Qui cillum eiusmod nostrud sunt dolore velit nostrud labore voluptate ad dolore. Eu Lorem anim pariatur aliqua. Ullamco ut dolor velit esse occaecat dolore eu cillum commodo qui. Nulla dolor consequat voluptate magna ut commodo magna consectetur non aute proident.",
+          "startDate": "2018-11-11T08:00:00.000Z",
+          "dueDate": "2018-11-12T08:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2
+          ]
+        },
+        "561551bd8f7d793ded0a2353": {
+          "id": "561551bd8f7d793ded0a2353",
+          "title": "Dolor ex occaecat magna labore laboris qui",
+          "notes": "Incididunt qui excepteur eiusmod elit cillum occaecat voluptate cillum nostrud. Dolor ullamco ullamco eiusmod do sunt adipisicing pariatur. In esse esse labore id reprehenderit sint do. Pariatur culpa dolor tempor qui excepteur duis do anim minim ipsum.",
+          "startDate": "2019-01-13T08:00:00.000Z",
+          "dueDate": "2019-01-15T08:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            3
+          ]
+        },
+        "561551bdaa586f72d0be02cc": {
+          "id": "561551bdaa586f72d0be02cc",
+          "title": "Ex nisi amet id dolore nostrud esse",
+          "notes": "",
+          "startDate": "2018-03-03T08:00:00.000Z",
+          "dueDate": "2019-01-04T08:00:00.000Z",
+          "completed": false,
+          "starred": true,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            4
+          ]
+        },
+        "561551bd9f1c2de5b27f537b": {
+          "id": "561551bd9f1c2de5b27f537b",
+          "title": "In dolor velit labore dolore ex eiusmod",
+          "notes": "",
+          "startDate": "2018-04-03T07:00:00.000Z",
+          "dueDate": "2018-05-05T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            4
+          ]
+        },
+        "561551bd26e21bb5e85b35cb": {
+          "id": "561551bd26e21bb5e85b35cb",
+          "title": "Sunt voluptate aliquip exercitation minim magna sit",
+          "notes": "",
+          "startDate": "2018-05-03T07:00:00.000Z",
+          "dueDate": "2018-06-05T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            4
+          ]
+        },
+        "561551bd719860cf0ad2011a": {
+          "id": "561551bd719860cf0ad2011a",
+          "title": "Nisi et ullamco minim ea proident tempor",
+          "notes": "Dolor veniam dolor cillum Lorem magna nisi in occaecat nulla dolor ea eiusmod.",
+          "startDate": "2018-07-03T07:00:00.000Z",
+          "dueDate": "2018-08-05T07:00:00.000Z",
+          "completed": false,
+          "starred": true,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2,
+            4
+          ]
+        },
+        "561551bd49d800c243264a91": {
+          "id": "561551bd49d800c243264a91",
+          "title": "Sit ipsum mollit cupidatat adipisicing officia aliquip",
+          "notes": "",
+          "startDate": "2018-09-03T07:00:00.000Z",
+          "dueDate": "2018-10-05T07:00:00.000Z",
+          "completed": true,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            1
+          ]
+        },
+        "561551bd061990eaf40fb64f": {
+          "id": "561551bd061990eaf40fb64f",
+          "title": "Amet sunt et quis amet commodo quis",
+          "notes": "Nulla dolore consequat aliqua sint consequat elit qui occaecat et.",
+          "startDate": "2018-02-03T08:00:00.000Z",
+          "dueDate": "2018-03-05T08:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            1
+          ]
+        },
+        "561551be81d05fa94711e7f3": {
+          "id": "561551be81d05fa94711e7f3",
+          "title": "Ut eiusmod ex ea eiusmod culpa incididunt",
+          "notes": "Fugiat non incididunt officia ex incididunt occaecat. Voluptate nostrud culpa aliquip mollit incididunt non dolore.",
+          "startDate": "2018-04-03T07:00:00.000Z",
+          "dueDate": "2018-05-05T07:00:00.000Z",
+          "completed": false,
+          "starred": false,
+          "important": false,
+          "deleted": false,
+          "labels": [
+            2
+          ]
+        },
+        "561551be05c093a80e0c8d05": {
+          "id": "561551be05c093a80e0c8d05",
+          "title": "Proident reprehenderit laboris pariatur ut et nisi",
+          "notes": "Reprehenderit proident ut ad cillum quis velit quis aliqua ut aliquip tempor ullamco.",
+          "startDate": "2018-06-03T07:00:00.000Z",
+          "dueDate": "2018-07-05T07:00:00.000Z",
+          "completed": true,
+          "starred": true,
+          "important": true,
+          "deleted": false,
+          "labels": [
+            5
+          ]
+        }
+      },
+      "searchText": "",
+      "orderBy": "",
+      "orderDescending": false,
+      "routeParams": {},
+      "todoDialog": {
+        "type": "new",
+        "props": {
+          "open": false
+        },
+        "data": null
+      }
+    },
+    "folders": [
+      {
+        "id": 0,
+        "handle": "all",
+        "title": "All",
+        "icon": "view_headline"
+      }
+    ],
+    "labels": [
+      {
+        "id": 1,
+        "handle": "frontend",
+        "title": "Frontend",
+        "color": "#388E3C"
+      },
+      {
+        "id": 2,
+        "handle": "backend",
+        "title": "Backend",
+        "color": "#F44336"
+      },
+      {
+        "id": 3,
+        "handle": "api",
+        "title": "API",
+        "color": "#FF9800"
+      },
+      {
+        "id": 4,
+        "handle": "issue",
+        "title": "Issue",
+        "color": "#0091EA"
+      },
+      {
+        "id": 5,
+        "handle": "mobile",
+        "title": "Mobile",
+        "color": "#9C27B0"
+      }
+    ],
+    "filters": [
+      {
+        "id": 0,
+        "handle": "starred",
+        "title": "Starred",
+        "icon": "star"
+      },
+      {
+        "id": 1,
+        "handle": "important",
+        "title": "Priority",
+        "icon": "error"
+      },
+      {
+        "id": 2,
+        "handle": "dueDate",
+        "title": "Sheduled",
+        "icon": "schedule"
+      },
+      {
+        "id": 3,
+        "handle": "today",
+        "title": "Today",
+        "icon": "today"
+      },
+      {
+        "id": 4,
+        "handle": "completed",
+        "title": "Done",
+        "icon": "check"
+      },
+      {
+        "id": 5,
+        "handle": "deleted",
+        "title": "Deleted",
+        "icon": "delete"
+      }
+    ]
+  },
+  "firestore": {
+    "status": {
+      "requesting": {},
+      "requested": {},
+      "timestamps": {}
+    },
+    "data": {},
+    "ordered": {},
+    "listeners": {
+      "byId": {},
+      "allIds": []
+    },
+    "errors": {
+      "byQuery": {},
+      "allIds": []
+    },
+    "queries": {}
+  },
+  "firebase": {
+    "requesting": {},
+    "requested": {},
+    "timestamps": {},
+    "data": {},
+    "ordered": {},
+    "auth": {
+      "uid": "3lq9cr3A3eNSehv4X35Q2HBtUty2",
+      "displayName": "Maria Le",
+      "photoURL": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
+      "email": "maria.c.le.4@gmail.com",
+      "emailVerified": true,
+      "phoneNumber": null,
+      "isAnonymous": false,
+      "providerData": [
+        {
+          "uid": "106065062175868017862",
+          "displayName": "Maria Le",
+          "photoURL": "https://lh5.googleusercontent.com/-B8JLjDILt9k/AAAAAAAAAAI/AAAAAAAAABc/G75SvMbyb0k/photo.jpg",
+          "email": "maria.c.le.4@gmail.com",
+          "phoneNumber": null,
+          "providerId": "google.com"
+        }
+      ],
+      "apiKey": "AIzaSyAOEXILaYcxjmJsJ81_WfubS_h3AQ3lLdA",
+      "appName": "[DEFAULT]",
+      "authDomain": "green-comet-e2c85.firebaseapp.com",
+      "stsTokenManager": {
+        "apiKey": "AIzaSyAOEXILaYcxjmJsJ81_WfubS_h3AQ3lLdA",
+        "refreshToken": "AGK09ANLexMOzZG0fafnnHhFf2nxWy8fgngBsOk_HKMgoHjlP9Wdtky4eLG9ePW_OFgfxXeusVZKt8N5J_qPEMOW_isnJsy0zgESAnRNShbUujl8TQNFI9lot_LB_e1-BSh9RtCIOwZYakwm8AtxeBt3RtE4kE7CE5oEA3FFfV-HADJbbQARrzoZyzCayN4fEbLQ7xSOUnr6i9uxkFxPwfrn3uCBYpPHJbDneuoic7xDI68qaEeRmIQ1A_kqxGPi8M5okwNNRhq4NxUtnqn8VfQgr8T_lQyJjWWdOGX-TzoEKpRIy4RLkiNBoM9KtFxImJsZ0x_UQu-DMwlz1dghl7xqyc68AIo5dqUx344EliTJGda6Mhn8Ny4",
+        "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwOTBjZGI5MmIzOTZiNTQyM2JhYjYyOWM5ZTk4MmFkYzIxYmQxMTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZ3JlZW4tY29tZXQtZTJjODUiLCJuYW1lIjoiTWFyaWEgTGUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9yYW5kb211c2VyLm1lL2FwaS9wb3J0cmFpdHMvdGh1bWIvd29tZW4vMy5qcGciLCJhdWQiOiJncmVlbi1jb21ldC1lMmM4NSIsImF1dGhfdGltZSI6MTU0NDQ5ODA0OCwidXNlcl9pZCI6IjNscTljcjNBM2VOU2VodjRYMzVRMkhCdFV0eTIiLCJzdWIiOiIzbHE5Y3IzQTNlTlNlaHY0WDM1UTJIQnRVdHkyIiwiaWF0IjoxNTQ0NDk4MDQ4LCJleHAiOjE1NDQ1MDE2NDgsImVtYWlsIjoibWFyaWEuYy5sZS40QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA2MDY1MDYyMTc1ODY4MDE3ODYyIl0sImVtYWlsIjpbIm1hcmlhLmMubGUuNEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.awlcjuDSNceoRiN-EeNLzaF7-S4rPEYRKRyg4u-uaBOaMHUQJrE6zEmnbqm8TjUKwDz1RyOSY4w8nBWSFVicW_QjsE-MN1ujcuvmVRBMr8LTOJjh558SleGlhJzy93MN1IybDoynnTE1Coz3cJWYJDuKmTl7PFdEgjPR11U7EJyKolgEzv40qsMabYH1RSSAUhjvg4xMhp0g9HZNo5uxJKicpNjrqIUrv54uhB4DJxJc3tRtMuDR_Crv3kSsmubkbTiAlkzVuytJZR6V5IToYAWFIylwyljSTwc7fkj3jYU4EKnaGV_gKdxF7AeTkC74kxwERVs2LyKeL_PPbmveIQ",
+        "expirationTime": 1544501648747
+      },
+      "redirectEventId": null,
+      "lastLoginAt": "1544498048000",
+      "createdAt": "1529141360000",
+      "isEmpty": false,
+      "isLoaded": true
+    },
+    "authError": null,
+    "profile": {
+      "displayName": "Maria Le",
+      "email": "maria.c.le.4@gmail.com",
+      "emailVerified": true,
+      "isAnonymous": false,
+      "phoneNumber": null,
+      "photoURL": "https://lh5.googleusercontent.com/-B8JLjDILt9k/AAAAAAAAAAI/AAAAAAAAABc/G75SvMbyb0k/photo.jpg",
+      "createdAt": 1544497971370,
+      "uid": "3lq9cr3A3eNSehv4X35Q2HBtUty2",
+      "isEmpty": false,
+      "isLoaded": true
+    },
+    "listeners": {
+      "byId": {},
+      "allIds": []
+    },
+    "isInitializing": false,
+    "errors": []
+  }
+}
