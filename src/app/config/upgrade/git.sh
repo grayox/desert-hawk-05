@@ -22,6 +22,9 @@ cd "v$new"
 # git config github.user grayox
 # git remote -v
 # git remote set-url origin https://github.com/grayox/desert-hawk-05
+# git add -A
+# git commit -m "new commit"
+# git push -u origin master
 #   ------------ verify key backup operations ------------
 #   # First, ensure you documented the changes made to the new version and what the plan is for the next version (todo)
 #   # Document above changes and todo on the file named dropbox/<appname>/<vx>/README.md
