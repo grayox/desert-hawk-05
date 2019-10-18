@@ -91,20 +91,20 @@ export function googleAuthProvider() {
     // });
     // firebaseService.auth && firebaseService.auth().signInWithPopup(provider).
     firebase.auth().signInWithPopup(provider)
-      .then(result => {
+      .then( result => {
         // This gives you a Google Access Token. You can use it to access the Google API.
         // const token = result.credential.accessToken;
         // The signed-in user info.
-        const { user } = result;
+        const { user, } = result;
         // ...
         // begin my add
         // console.log('token\n', token);
-        // console.log('user\n', user);
+        console.log('user\n', user);
         // debugger;
         const role = 'user';
         const data = pickUserFromAuth(user);
-        const auth = { role, data };
-        // console.log('auth\n', auth);
+        const auth = { role, data, };
+        console.log('auth\n', auth);
         // debugger;
         dispatch(setUserData(auth));
         dispatch({

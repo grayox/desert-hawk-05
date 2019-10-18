@@ -3,7 +3,7 @@
 # Update yarn and all dependencies
 
 # steps 1-3
-brew install node && brew update && brew upgrade node && brew install yarn && brew upgrade yarn && cd && cd dropbox/swap/fuse && git clone https://maria-le:teleworm1@github.com/withinpixels/fuse-react.git && mv fuse-react/ v05/ && cd v05 && yarn && yarn add --dev @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome nuka-carousel material-auto-rotating-carousel react-swipeable-views react-chartist chartist email-validator react-number-format moment numeral object-hash react-text-mask text-mask-addons react-icons react-image react-infinite-scroll-component react-rating react-visibility-sensor recompose @material-ui/lab
+brew install node && brew update && brew upgrade node && brew install yarn && brew upgrade yarn && cd && cd dropbox/swap/fuse && git clone https://maria-le:teleworm1@github.com/withinpixels/fuse-react.git && mv fuse-react/ v05/ && cd v05 && yarn && yarn add --dev react-redux-firebase redux-firestore @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome nuka-carousel material-auto-rotating-carousel react-swipeable-views react-chartist chartist email-validator react-number-format moment numeral object-hash react-text-mask text-mask-addons react-icons react-image react-infinite-scroll-component react-rating react-visibility-sensor recompose @material-ui/lab
 #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   
 
 # define variables
@@ -36,7 +36,7 @@ git clone https://maria-le:teleworm1@github.com/withinpixels/fuse-react.git
 mv fuse-react/ v05/
 
 # step 3
-cd v05 && yarn && yarn add --dev @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome nuka-carousel material-auto-rotating-carousel react-swipeable-views react-chartist chartist email-validator react-number-format moment numeral object-hash react-text-mask text-mask-addons react-icons react-image react-infinite-scroll-component react-rating react-visibility-sensor recompose @material-ui/lab
+cd v05 && yarn && yarn add --dev react-redux-firebase redux-firestore @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome nuka-carousel material-auto-rotating-carousel react-swipeable-views react-chartist chartist email-validator react-number-format moment numeral object-hash react-text-mask text-mask-addons react-icons react-image react-infinite-scroll-component react-rating react-visibility-sensor recompose @material-ui/lab
 
 cd v05
 # Install dependencies

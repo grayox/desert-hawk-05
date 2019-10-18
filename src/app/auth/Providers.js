@@ -46,7 +46,8 @@ const items = [
 class AuthProviders extends Component {
 
   handleClick = () => {
-    // console.log('clicked!');
+    console.log('clicked!');
+    console.log('props', this.props,);
     // firebaseService.init();
     // this.props.loginWithFireBase({username: 'username', password: 'password',});
     this.props.googleAuthProvider();
@@ -70,18 +71,18 @@ class AuthProviders extends Component {
         <Typography className='ml-24 mb-8 text-12 font-light opacity-75 uppercase'>Login with</Typography>
         <List component='nav'>
           {
-            items.map(item => (
+            items.map( ({ label, icon, }) => (
               <ListItem
-                key={item.label}
+                key={label}
                 // className="cursor-pointer hover:bg-grey"
                 button
                 onClick={handleClick}
               >
                 <ListItemIcon className="w-24">
-                  <FontAwesomeIcon className="text-4xl" icon={item.icon} />
+                  <FontAwesomeIcon className="text-4xl" icon={icon} />
                 </ListItemIcon>
-                {/* <ListItemText className="text-4xl" primary={item.label}/> */}
-                <Typography className="text-base ml-12">{item.label}</Typography>
+                {/* <ListItemText className="text-4xl" primary={label}/> */}
+                <Typography className="text-base ml-12">{label}</Typography>
               </ListItem>
             ))
           }
@@ -97,6 +98,8 @@ AuthProviders.propTypes = {
 };
 
 function mapDispatchToProps(dispatch) {
+  console.log('dispatch', dispatch,);
+  console.log('googleAuthProvider', Actions.googleAuthProvider,);
   return bindActionCreators({
     // loginWithFireBase: Actions.loginWithFireBase,
     googleAuthProvider: Actions.googleAuthProvider,

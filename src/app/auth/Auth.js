@@ -18,18 +18,19 @@ class Auth extends Component {
   }
   firebaseCheck = () => {
     firebaseService.init(); // factory added in v1.2.8
-    firebaseService.onAuthStateChanged(authUser => {
+    firebaseService.onAuthStateChanged( authUser => {
       if (authUser) {
-        // console.log('authUser\n', authUser); // my add
+        console.log('authUser\n', authUser); // my add
         // debugger;
         this.props.showMessage({ message: 'Logging in' });
         // Retrieve user data from Firebase
         const picked = pickUserFromAuth(authUser); // my add
-        firebaseService.getUserData(picked/*authUser*v/.uid*/)
-          .then(user => {
+        console.log('picked\n', picked,);
+        firebaseService.getUserData( picked /*authUser* /.uid*/)
+          .then( user => {
             // debugger;
-            // this.props.setUserDataFirebase(user, authUser);
-            this.props.setUserDataFirebase(user, picked);  // my add
+            // this.props.setUserDataFirebase( user, authUser, );
+            this.props.setUserDataFirebase( user, picked, );  // my add
             this.props.showMessage({ message: 'Logged in' });
           })
           // begin my add
@@ -59,4 +60,4 @@ function mapDispatchToProps(dispatch) {
     dispatch);
 }
 
-export default connect(null, mapDispatchToProps)(Auth);
+export default connect(null, mapDispatchToProps,)(Auth);
